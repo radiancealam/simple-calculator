@@ -59,23 +59,23 @@ while True:
   if (jawab == 1):
     print("Hasil penjumlahannya : " ,str(tambah()))
     print("Ulangi lagi: (Y/N)")
-    ulang = input()
+    ulang = input().upper()
   elif (jawab == 2):
     print("Hasil pengurangannya : " ,str(kurang()))
     print("Ulangi lagi: (Y/N)")
-    ulang = input()
+    ulang = input().upper()
   elif (jawab == 3):
     print("Hasil perkaliannya : " ,str(kali()))
     print("Ulangi lagi: (Y/N)")
-    ulang = input()
+    ulang = input().upper()
   elif (jawab == 4):
     print("Hasil pembagiannya : " ,str(bagi()))
     print("Ulangi lagi: (Y/N)")
-    ulang = input()
+    ulang = input().upper()
   elif (jawab == 5):
     print("Sisa baginya : " ,str(mod()))
     print("Ulangi lagi: (Y/N)")
-    ulang = input()
+    ulang = input().upper()
   if ulang == "N":
     print("Sampai jumpa lagi")
     break
